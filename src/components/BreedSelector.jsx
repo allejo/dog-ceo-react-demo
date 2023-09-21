@@ -33,7 +33,7 @@ const BreedSelector = ({onChange}) => {
             {breeds.length === 0
                 ? <option disabled>Loading...</option>
                 : <>
-                    <option value='' disabled>
+                    <option value='' disabled selected>
                         Select a breed
                     </option>
                     {breeds.map((breed) => (
